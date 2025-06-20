@@ -9,3 +9,5 @@ dice=Dice()
 a=dice.roll()
 print(a)
 
+Friday day off hahahahaha
+Need to keep the streak on
