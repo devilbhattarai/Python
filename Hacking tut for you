@@ -9,6 +9,45 @@ dice=Dice()
 a=dice.roll()
 print(a)
 
-Friday day off hahahahaha
-Need to keep the streak on
-hehe
+>>Sunday---A game for "Saleen":
+import random
+names=["HEADS","TAILS"]
+choice=input("Hey Saleen, Heads or Tails?-> ")
+uchoice=choice.upper()
+winner=random.choice(names)
+if uchoice==winner:
+    print(f"Congrats Saleen, IT'S {winner}. You just won 1 million dollars!!")
+elif uchoice!=winner:
+    print(f"Oh noo Saleen, it's {winner}. You just lost 1 million dollars")
+
+>>Monday---Calculator
+def add(x,y):
+    return int(x+y)
+
+def subtract(x,y):
+    return int(x-y)
+
+def multiply(x,y):
+    return int(x*y)
+
+def division(x,y):
+    return x/y
+
+print("Welcome to the calculator")
+x=float(input("Enter a number-> "))
+y=float(input("Enter another number-> "))
+print("1. Addition ")
+print("2. Subtraction ")
+print("3. Multiplication ")
+print("4. Division ")
+operation=int(input("Enter your desired operation (1/2/3/4) -> "))
+if operation==1:
+    print(add(x,y))
+elif operation==2:
+    print(subtract(x,y))
+elif operation==3:
+    print(multiply(x,y))
+elif operation==4 :
+    print(division(x,y))
+else:
+    print("invalid input")
